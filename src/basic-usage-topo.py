@@ -18,3 +18,8 @@ net.addLink('s1', 'h3')
 net.addLink('s1', 'h4')
 
 net.setBwAll(5)
+
+net.enableLogAll()
+
+net.enableCli()
+net.startNetwork()
